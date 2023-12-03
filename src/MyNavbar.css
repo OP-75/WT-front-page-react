@@ -1,0 +1,47 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .company-info-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-info-nav a img {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .company-info-nav a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .buttons-container {
+    display: flex;
+    margin-right:  12vb;
+  }
+  
+  .buttons-container button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: black; 
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: transparent;
+  }
+  
+  .buttons-container button:hover {
+    background-color: purple; 
+    color: aliceblue;
+  }
+  
